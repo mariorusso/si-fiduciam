@@ -8,7 +8,7 @@ const Home = () => (
       <span className='blue_gradient text-center'>Freedom of Speech</span>
     </h1>
     <p className='desc text-center'>
-      Share your thoughts on a simple way, Sing Up with your Google account and share your thoughts with the World! 
+      Sing Up with your Google account and share your thoughts with the World! 
     </p>
 
     <Feed />
