@@ -7,8 +7,9 @@ export const metadata = {
     title: "Si Fiduciam | Share Your Thoughts With Confidence.",
     description: "The Freedom of Speech Platform. We Put Freedom Above All Human Rights!",
     icons: {
-        icon: '/assets/icons/favicon.ico'
-    },
+        icon: '/assets/icons/favicon.ico',
+        apple: '/assets/icons/apple-touch-icon.png'
+    },    
     openGraph: {
             type: 'website',
             url: 'https://sifiduciam.com/',
@@ -16,7 +17,7 @@ export const metadata = {
             description: 'The Freedom of Speech Platform. We Put Freedom Above All Human Rights!',
             images: [
             {
-                url: 'https://www.sifiduciam.com/assets/images/logo.svg',
+                url: 'https://www.sifiduciam.com/icons/apple-touch-icon.png',
                 width: 485,
                 height: 581,
                 alt: 'Si Fiduciam | Share Your Thoughts With Confidence.',
@@ -24,6 +25,7 @@ export const metadata = {
             ],
             site_name: 'Si Fiduciam',
         },
+        manifest: '/site.manifest',
     }
 
 
