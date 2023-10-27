@@ -3,12 +3,29 @@ import '@styles/globals.css';
 import Nav from '@components/Nav';
 import Provider from '@components/Provider';
 import Footer from '@components/Footer';
-
-
 export const metadata = {
     title: "Si Fiduciam | Share Your Thoughts With Confidence.",
-    description: "The Freedom of Speech Platform. We Put Freedom Above All Human Rights!"
-}
+    description: "The Freedom of Speech Platform. We Put Freedom Above All Human Rights!",
+    icons: {
+        icon: '/assets/icons/favicon.ico'
+    },
+    openGraph: {
+            type: 'website',
+            url: 'https://sifiduciam.com/',
+            title: 'Si Fiduciam | Share Your Thoughts With Confidence.',
+            description: 'The Freedom of Speech Platform. We Put Freedom Above All Human Rights!',
+            images: [
+            {
+                url: 'https://www.sifiduciam.com/assets/images/logo.svg',
+                width: 485,
+                height: 581,
+                alt: 'Si Fiduciam | Share Your Thoughts With Confidence.',
+            }
+            ],
+            site_name: 'Si Fiduciam',
+        },
+    }
+
 
 const RootLayout = ({ children }) => {
   return (
