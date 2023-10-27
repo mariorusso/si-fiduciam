@@ -25,7 +25,6 @@ export const metadata = {
             ],
             site_name: 'Si Fiduciam',
         },
-        manifest: '/site.manifest',
     }
 
 
